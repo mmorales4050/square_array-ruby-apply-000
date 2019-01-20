@@ -3,5 +3,3 @@ def square_array(array)
   index = 0
   array.each { |number| array[index] = number*number; index = index + 1 }
 end
-
-square_array([1,2,3])
